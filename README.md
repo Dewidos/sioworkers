@@ -1,3 +1,7 @@
+# sioworkers
+
+Original sioworkers project with added python compiler.
+
 # INSTALLATION
 
 ### for python 2 installation ###
