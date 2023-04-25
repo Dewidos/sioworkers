@@ -1,6 +1,7 @@
 # sioworkers
 
 Original sioworkers project with added python compiler.
+**Note: it's still work in progress.**
 
 # INSTALLATION
 
