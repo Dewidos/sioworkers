@@ -33,11 +33,11 @@ else:
 
 setup(
     name = "sioworkers",
-    version = '1.4.1',
-    author = "SIO2 Project Team",
-    author_email = 'sio2@sio2project.mimuw.edu.pl',
+    version = '1.4.2',
+    author = "SIO2 Project Team, Dewidos",
+    author_email = 'sio2@sio2project.mimuw.edu.pl, kontakt@dewidos.pl',
     description = "Programming contest judging infrastructure",
-    url = 'https://github.com/sio2project/sioworkers',
+    url = 'https://github.com/Dewidos/sioworkers',
     license = 'GPL',
 
     # we need twisted.plugins in packages to install the sio twisted command
@@ -75,12 +75,15 @@ setup(
             'g++4_8_2_cpp11 = sio.compilers.gcc:run_cpp_gcc4_8_2_cpp11',
             'fpc2_6_2 = sio.compilers.fpc:run_pas_fpc2_6_2',
             'java1_8 = sio.compilers.java:run_java1_8',
+            'python = sio.compilers.python:run_default',
+            'py = sio.compilers.python:run_default',
 
             # Non-sandboxed compilers
             'system-gcc = sio.compilers.system_gcc:run_gcc',
             'system-g++ = sio.compilers.system_gcc:run_gplusplus',
             'system-fpc = sio.compilers.system_fpc:run',
             'system-java = sio.compilers.system_java:run',
+            'default-py = sio.compilers.python:run_default',
 
             # Compiler for output only tasks solutions
             'output-only = sio.compilers.output:run',

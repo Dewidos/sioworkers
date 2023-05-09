@@ -4,6 +4,9 @@
 *.egg
 *.pyc
 .*.swp
+.idea
+.tox
+venv
 twisted/plugins/dropin.cache
 config/supervisord.conf
 config/supervisord-conf-vars.conf
